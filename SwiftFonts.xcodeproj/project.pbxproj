@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		717EDCB422BB5C4C00CFFB11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EDCB322BB5C4C00CFFB11 /* AppDelegate.swift */; };
-		717EDCB622BB5C4C00CFFB11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EDCB522BB5C4C00CFFB11 /* ViewController.swift */; };
+		717EDCB622BB5C4C00CFFB11 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EDCB522BB5C4C00CFFB11 /* MainTableViewController.swift */; };
 		717EDCB922BB5C4C00CFFB11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717EDCB722BB5C4C00CFFB11 /* Main.storyboard */; };
 		717EDCBB22BB5C4D00CFFB11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717EDCBA22BB5C4D00CFFB11 /* Assets.xcassets */; };
 		717EDCBE22BB5C4D00CFFB11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717EDCBC22BB5C4D00CFFB11 /* LaunchScreen.storyboard */; };
+		717EDCC822BB5F6F00CFFB11 /* FontDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EDCC722BB5F6F00CFFB11 /* FontDetailsViewController.swift */; };
+		717EDCCA22BB855000CFFB11 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717EDCC922BB855000CFFB11 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		717EDCB022BB5C4C00CFFB11 /* SwiftFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		717EDCB322BB5C4C00CFFB11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		717EDCB522BB5C4C00CFFB11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		717EDCB522BB5C4C00CFFB11 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		717EDCB822BB5C4C00CFFB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		717EDCBA22BB5C4D00CFFB11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		717EDCBD22BB5C4D00CFFB11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		717EDCBF22BB5C4D00CFFB11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717EDCC722BB5F6F00CFFB11 /* FontDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDetailsViewController.swift; sourceTree = "<group>"; };
+		717EDCC922BB855000CFFB11 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				717EDCB322BB5C4C00CFFB11 /* AppDelegate.swift */,
-				717EDCB522BB5C4C00CFFB11 /* ViewController.swift */,
+				717EDCB522BB5C4C00CFFB11 /* MainTableViewController.swift */,
+				717EDCC722BB5F6F00CFFB11 /* FontDetailsViewController.swift */,
+				717EDCC922BB855000CFFB11 /* Model.swift */,
 				717EDCB722BB5C4C00CFFB11 /* Main.storyboard */,
 				717EDCBA22BB5C4D00CFFB11 /* Assets.xcassets */,
 				717EDCBC22BB5C4D00CFFB11 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717EDCB622BB5C4C00CFFB11 /* ViewController.swift in Sources */,
+				717EDCB622BB5C4C00CFFB11 /* MainTableViewController.swift in Sources */,
+				717EDCC822BB5F6F00CFFB11 /* FontDetailsViewController.swift in Sources */,
 				717EDCB422BB5C4C00CFFB11 /* AppDelegate.swift in Sources */,
+				717EDCCA22BB855000CFFB11 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
