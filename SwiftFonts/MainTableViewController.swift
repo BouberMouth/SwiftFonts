@@ -16,7 +16,7 @@ class MainTableViewController: UITableViewController {
         }
     }
     
-    let fonts = UIFont.familyNames
+    let fonts = UIFont.familyNames.sorted()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +24,7 @@ class MainTableViewController: UITableViewController {
         title = "Swift fonts"
         //TODO: Fix the button's icon size
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "moonBlack@1"), style: .plain, target: self, action: #selector(nightModeButtonTapped))
+        reverseColorScheme()
     }
 }
 
